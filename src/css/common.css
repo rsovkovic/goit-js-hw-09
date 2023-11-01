@@ -16,3 +16,35 @@ img {
   display: block;
   max-width: 100%;
 }
+/**---------------------TASK_01---------------*/
+.task__one {
+  text-align: center;
+}
+/**---------------------TASK_02---------------*/
+.task__second > button {
+  font-size: large;
+}
+.task__second > input {
+  font-size: large;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.value {
+  font-size: x-large;
+  font-weight: 500;
+}
+.label {
+  font-size: large;
+  font-weight: 300;
+}
